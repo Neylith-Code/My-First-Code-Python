@@ -1,7 +1,7 @@
 from colorama import Fore, init
 
 
-init('autorest = True')
+init(autorest=True)
 print(f"{Fore.CYAN} Welcome to my first game!")
 name = input("What is your name? ").strip().capitalize()
 age = int(input(f"Hi {name}! How old are you? "))
